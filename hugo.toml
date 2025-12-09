@@ -1,0 +1,76 @@
+baseurl = "http://www.example.com"
+title = "Lyam Talbot"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+# [services]
+# [services.disqus]
+# shortname = "yourdiscussshortname"
+
+[module]
+  [[module.imports]]
+    path = 'github.com/hugomods/images'
+    disable = false
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Lyam Talbot"
+  info = "Graduate Software Engineer"
+  description = "My personal website and blog"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+#   gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/LyamTalbot"
+[[params.social]]
+  name = "CV"
+  weight = 2
+  icon = "fa-regular fa-file fa-2x"
+
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 3
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url = "projects/"
