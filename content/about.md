@@ -1,8 +1,7 @@
 +++
 date = '2025-12-07T20:30:31+10:00'
-draft = true
+draft = false
 title = 'About'
-css = ["scss/about.scss"]
 +++
 
 I'm a software developer based in Australia, recently graduated with a Bachelor of Computer Science from the University of New England.\
