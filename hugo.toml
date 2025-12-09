@@ -23,7 +23,7 @@ style = "github-dark"
 [params]
   author = "Lyam Talbot"
   info = "Graduate Software Engineer"
-  description = "My personal website and blog"
+  description = "My personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
 #   gravatar = "john.doe@example.com"
@@ -59,6 +59,7 @@ style = "github-dark"
   name = "CV"
   weight = 2
   icon = "fa-regular fa-file fa-2x"
+  url = "documents/public_cv.pdf"
 
 
 # Menu links
