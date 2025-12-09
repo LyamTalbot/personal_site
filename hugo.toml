@@ -76,5 +76,5 @@ style = "github-dark"
   url = "projects/"
 
 [caches]
-  [caches.imaes]
+  [caches.images]
     dir = ':cacheDir/images'
