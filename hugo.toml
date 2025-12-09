@@ -25,14 +25,14 @@ style = "github-dark"
   info = "Graduate Software Engineer"
   description = "My personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-#   gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2019
+  customSCSS = ["scss/about.scss"]
+
+  since = 2025
 
   enableTwemoji = true
 
@@ -63,10 +63,6 @@ style = "github-dark"
 
 
 # Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 3
-  url  = "posts/"
 [[menu.main]]
   name = "About"
   weight = 1
